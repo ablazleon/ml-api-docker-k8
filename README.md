@@ -1,4 +1,64 @@
-## Cloud DevOps ND - C4- Microservices at Scale using AWS & Kubernetes - Supporting Material and Project Starter
+# Operationalized a Machine Learning Microservice API
+
+
+ ***Credits***
+Udacity Cloud DevOps Nanodegree Program
+
+## 1. Installation
+## 2. Usage
+## 3. Contributing
+## 4. How it was developed
+### a. Steps
+### b. Requirements (Rubric)
+
+--------------
+
+## 1. Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## 2. Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+## 3. Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## 4. How it was developed
+
+### a.Steps
+
+0. Create and activate an environment
+1. Complete the Dockerfile
+2. Run a Container & Make a Prediction
+3. Improve Logging & Save Output
+4. Upload the Docker Image
+5. Configure Kubernetes to Run Locally
+6. Deploy with Kubernetes and Save Output Logs
+7.  [Important] Delete Cluster
+8. CircleCI Integration
+9. Task 9: README.md
+
+
+### b. Requirements (Rubric)
+
+---------------
+
+## Annex: Instructions
 
 This repository is associated with Cloud DevOps ND - Course 04 - Microservices at Scale using AWS & Kubernetes. In here, you'll find:
 1. Supporting material used in the video demonstration in the course 
