@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag adrian/udacityprediction .
+docker build --tag adrian/ml-ops-api .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,5 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run -p 8080:80 adrian/udacityprediction
+docker run -p 8080:80 adrian/ml-ops-api
+
