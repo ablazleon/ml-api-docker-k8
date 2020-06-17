@@ -20,7 +20,7 @@ def scale(payload):
 
 @app.route("/")
 def home():
-    html = f"<h3>Sklearn Prediction Home</h3>"
+    html = "<h3>Sklearn Prediction Home</h3>"
     return html.format(format)
 
 @app.route("/predict", methods=['POST'])
@@ -65,7 +65,7 @@ def predict():
     
      # Logging the output prediction
     LOG.info(f"Output prediction: \n{prediction}")
-    LOG.info(f" \n”POST /predict HTTP/1.1” 200 -")
+    LOG.info(" \n”POST /predict HTTP/1.1” 200 -")
 
     # TO DO:  Log the output prediction value
     return jsonify({'prediction': prediction})
