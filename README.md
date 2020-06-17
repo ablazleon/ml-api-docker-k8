@@ -1,5 +1,6 @@
 # Operationalized a Machine Learning Microservice API
 
+[![CircleCI](https://circleci.com/github/ablazleon/ml-api-docker-k8.svg?style=svg)](https://app.circleci.com/pipelines/github/ablazleon/ml-api-docker-k8)
 
  ***Credits***
 Udacity Cloud DevOps Nanodegree Program
