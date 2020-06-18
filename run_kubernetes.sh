@@ -27,4 +27,4 @@ kubectl get deployments
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward deployment/ml-api-pod 80:8080
+kubectl port-forward deployment/ml-api-pod 8080:80
