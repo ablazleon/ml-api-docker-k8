@@ -16,15 +16,19 @@ dockerpath="ablazleon/ml-ops-api"
 # Step 2
 # Run the Docker Hub container with kubernetes
 
-# From the docu:
-# https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive/
-docker login
-kubectl create deployment ml-api-pod --image=$dockerpath:latest
-
-# Step 3:
-# List kubernetes pods
-kubectl get deployments
+# and
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward deployment/ml-api-pod 8000:80
+
+# From the docu:
+# https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive/
+docker login
+kubectl apply -f dpl-svc.yml
+
+# Step 3:
+# List kubernetes pods
+kubectl get po
+
+
+
