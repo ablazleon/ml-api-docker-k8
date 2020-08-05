@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for Kubernetes
+name: ml-api-docker-k8
+version: v0.1.0
